@@ -106,8 +106,28 @@ li a {
     }
     }
 }
+
+@media only screen and (max-width: 320px) {
+    nav {
+    .navbar-container {
+        .logo {
+            img {
+                height: 15px;
+            }
+        }
+    }
+    .navbar-icons {
+    #cart {
+        height: 25px;
+    }
+    #avatar {
+        height: 30px;
+    }
+    }
+}
 @keyframes slide {
     0% {
         transform: translateX(-100px);
     }
+}
 }

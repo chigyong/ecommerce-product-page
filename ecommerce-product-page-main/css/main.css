@@ -98,13 +98,24 @@ nav .menu .bars {
     right: 1rem;
   }
 }
-@-webkit-keyframes slide {
-  0% {
-    transform: translateX(-100px);
+@media only screen and (max-width: 320px) {
+  nav .navbar-container .logo img {
+    height: 15px;
   }
-}
-@keyframes slide {
-  0% {
-    transform: translateX(-100px);
+  nav .navbar-icons #cart {
+    height: 25px;
+  }
+  nav .navbar-icons #avatar {
+    height: 30px;
+  }
+  @-webkit-keyframes slide {
+    0% {
+      transform: translateX(-100px);
+    }
+  }
+  @keyframes slide {
+    0% {
+      transform: translateX(-100px);
+    }
   }
 }/*# sourceMappingURL=main.css.map */
